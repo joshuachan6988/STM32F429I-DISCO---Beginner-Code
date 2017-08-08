@@ -1,3 +1,2 @@
 # STM32F429I-DISCO---Beginner-Code
-STM32F429I - DISCO Board Beginner Code\n
-Using STM32CubeMX + Keil uVision5
+STM32F429I - DISCO Board Beginner Code: Using STM32CubeMX + Keil uVision5
