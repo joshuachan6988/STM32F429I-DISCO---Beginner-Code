@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"led_on\stm32f4xx_it.o"
+"led_on\main.o"
+"led_on\stm32f4xx_hal_msp.o"
+"led_on\system_stm32f4xx.o"
+"led_on\stm32f4xx_hal_pwr.o"
+"led_on\stm32f4xx_hal_cortex.o"
+"led_on\stm32f4xx_hal_rcc.o"
+"led_on\stm32f4xx_hal_tim.o"
+"led_on\stm32f4xx_hal_gpio.o"
+"led_on\stm32f4xx_hal.o"
+"led_on\stm32f4xx_hal_pwr_ex.o"
+"led_on\stm32f4xx_hal_dma_ex.o"
+"led_on\stm32f4xx_hal_rcc_ex.o"
+"led_on\stm32f4xx_hal_tim_ex.o"
+"led_on\stm32f4xx_hal_dma.o"
+"led_on\stm32f4xx_hal_flash.o"
+"led_on\stm32f4xx_hal_flash_ex.o"
+"led_on\stm32f4xx_hal_flash_ramfunc.o"
+"led_on\stm32f4xx_hal_i2c.o"
+"led_on\stm32f4xx_hal_i2c_ex.o"
+"led_on\stm32f4xx_hal_spi.o"
+"led_on\startup_stm32f429xx.o"
+"led_on\stm32f429i_discovery.o"
+--library_type=microlib --strict --scatter "LED_ON\LED_ON.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LED_ON.map" -o LED_ON\LED_ON.axf
